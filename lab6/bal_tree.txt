@@ -1,0 +1,11 @@
+digraph test_tree {
+one -> five [label = "left"];
+one -> three [label = "right"];
+five -> eight [label = "left"];
+five -> four [label = "right"];
+four -> nine [label = "right"];
+three -> six [label = "left"];
+three -> two [label = "right"];
+six -> seven [label = "left"];
+six -> ten [label = "right"];
+}
